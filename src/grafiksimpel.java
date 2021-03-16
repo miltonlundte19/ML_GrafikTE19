@@ -13,7 +13,25 @@ public class grafiksimpel extends Canvas {
 
     public void paint(Graphics g) {
 
+
+        drawHouse(g, 100, 200);
+        drawTree(g,100,200);
+        drawStev(g,200,100);
     }
+//   temperärt som stev för en simpel person.
+    private void drawStev(Graphics g, int x, int y) {
+
+    }
+
+    private void drawTree(Graphics g, int x, int y) {
+        g.setColor(Color.GREEN);
+        g.fillOval();
+    }
+
+    private void drawHouse(Graphics g, int x, int y) {
+
+    }
+
     public static void main(String[] args) {
         grafiksimpel rityta = new grafiksimpel();
     }
